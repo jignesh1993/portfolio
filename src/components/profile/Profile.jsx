@@ -33,20 +33,20 @@ const Profile = () => {
           <h2
             className={`text-2xl xxs:text-3xl sm:text-4xl lg:text-[38px] text-[min(24px,38px)] max-md:text-center font-semibold mb-8`}
           >
-            I am Professional User Experience Designer
+            Full-Stack Developer | React, Node.js, MongoDB, PostgreSQL
           </h2>
           <div
             className={`text-xs xs:text-[16px] lg:text-lg font-normal max-md:text-center text-gray-600`}
           >
             <p className={``}>
-              I design and develop services for customers specializing creating
-              stylish, modern websites, web services and online stores. My
-              passion is to design digital user experiences.
+              I help brands and businesses build powerful digital products.
+              Whether it’s a responsive website, a custom web app, or API integrations, I deliver clean code and exceptional user experiences.
+              I’m passionate about building products that are fast, intuitive, and scalable.
             </p>
-            <p className="mt-3">
+            {/* <p className="mt-3">
               I design and develop services for customers specializing creating
               stylish, modern websites, web services.
-            </p>
+            </p> */}
           </div>
           <div className="mt-8 flex max-md:justify-center">
             <a
@@ -59,7 +59,16 @@ const Profile = () => {
               className={`btn xxs:btn-lg px-6 max-xs:px-2 xxs:py-3 hover:border-picto-primary bg-white duration-300 transition-all hover:text-picto-primary  ms-4 text-xs xxs:text-[14px] sm:text-[16px]`}
               href="#!"
             >
-              <FontAwesomeIcon icon={faDownload} /> Download CV
+              {/* <FontAwesomeIcon icon={faDownload} /> Download CV */}
+              <a
+                href="/portfolio/Jignesh_5_YOE.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center gap-2"
+              >
+                <FontAwesomeIcon icon={faDownload} />
+                Download CV
+              </a>
             </a>
           </div>
         </div>
